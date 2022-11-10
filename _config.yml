@@ -4,12 +4,12 @@
 
 # Site
 title: Eninix's Blog
-subtitle: ''
-description: ''
+subtitle: 'Hello,world.'
+description: 'Just a Blog site.'
 keywords:
 author: Eninix
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
