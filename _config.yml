@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://eninix.github.io/
+url: https://eninix.top/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -131,3 +131,9 @@ symbols_count_time:
  # 网页底部是否显示
   total_symbols: true
   total_time: true
+
+
+# 注意：yml 非常在意縮排。
+sitemap:
+    path: sitemap.xml
+    #template: ./sitemap_template.xml # 這行非必填，除非你想設定自訂的樣板
