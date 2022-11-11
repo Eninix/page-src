@@ -4,10 +4,10 @@
 
 # Site
 title: Eninix's Blog
-subtitle: 'Hello,world.'
+subtitle: 'Hello,World!'
 description: '尔曹身与名俱灭，不废江河万古流。'
 keywords:
-author: Eninix
+author: 'Eninix Inn'
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
@@ -105,3 +105,29 @@ deploy:
   type: git
   repo: https://github.com/Eninix/eninix.github.io.git
   branch: main
+
+
+# nofollow
+nofollow:
+  enable: true
+  field: site
+  exclude:
+    - ''
+    - ''
+
+
+# 本地搜索
+search:
+  path: search.xml # 索引文件的路径，相对于站点根目录
+  field: post # 搜索范围，默认是 post，还可以选择 page、all，设置成 all 表示搜索所有页面
+  format: html
+  limit: 100 # 限制搜索的条目数
+
+
+symbols_count_time:
+ #文章内是否显示
+  symbols: true
+  time: true
+ # 网页底部是否显示
+  total_symbols: true
+  total_time: true
