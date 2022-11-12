@@ -1,4 +1,5 @@
 echo '=======>hexo generate'
+hexo clean
 hexo g
 echo '=======>hexo deploy'
 hexo d

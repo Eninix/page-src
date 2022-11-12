@@ -131,6 +131,9 @@ symbols_count_time:
   # 网页底部是否显示
   total_symbols: true
   total_time: true
+  exclude_codeblock: false
+  awl: 2 # 计算字数的一个设置,没设置过
+  wpm: 200 # 一分钟阅读的字数
 
 # 注意：yml 非常在意縮排。
 sitemap:
@@ -171,14 +174,15 @@ feed:
   autodiscovery: true
   template:
 
-moon_menu:
-  back2top:
-    enable: true
-    icon: fa fa-chevron-up
-    func: back2top
-    order: -1
-  back2bottom:
-    enable: true
-    icon: fa fa-chevron-down
-    func: back2bottom
-    order: -2
+# 不好看 npm uninstall hexo-cake-moon-menu
+# moon_menu:
+#   back2top:
+#     enable: true
+#     icon: fa fa-chevron-up
+#     func: back2top
+#     order: -1
+#   back2bottom:
+#     enable: true
+#     icon: fa fa-chevron-down
+#     func: back2bottom
+#     order: -2
