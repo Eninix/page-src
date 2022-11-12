@@ -1,10 +1,15 @@
 ---
 title: Github-cli的使用
 abbrlink: c682f7b6
-date: 2022-11-12 14:10:35
+date: 2022-11-12 14:17:53
 tags: [git, github]
+categories: [Github]
 ---
 
+
+Github-Cli是github官方推出的命令行工具，可以用来在命令行上快捷的操作github.
+
+<!--more-->
 
 # 1.官网及下载地址与安装手段
 
