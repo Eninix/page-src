@@ -13,7 +13,7 @@ timezone: "Asia/Shanghai"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://eninix.top/
+url: https://eninix.top
 permalink: archives/:abbrlink.html
 abbrlink:
   alg: crc32 # 算法：crc16(default) and crc32
@@ -93,9 +93,9 @@ pagination_dir: page
 
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
-# include:
-# exclude:
-# ignore:
+include:
+exclude:
+ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/

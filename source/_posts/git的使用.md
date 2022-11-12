@@ -1,14 +1,17 @@
 ---
 title: Git的使用
-abbrlink: caff8000
-date: 2022-11-12 14:10:35
-tags: [git]
-categories: [Github]
+abbrlink: 2e742d51
+date: 2022-11-12 14:45:52
+tags: git
+categories: Github
 ---
 
-一些常用的git指令，和.gitignore文件的使用方法。
+
+<center>一些常用的git指令，和.gitignore文件的使用方法。</center>
 
 <!--more-->
+
+
 
 # 1.安装
 
@@ -50,7 +53,7 @@ git merge 需要被分支名  (合并分支)
 
 # 5.文件“.gitigenore”
 
-```txt
+```
 /文件夹名/ => (忽略整个文件夹)
 *.zip => (忽略所有.zip文件)
 /文件夹名/文件名.后缀 => (忽略某个具体文件)

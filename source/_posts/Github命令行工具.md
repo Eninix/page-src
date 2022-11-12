@@ -1,13 +1,11 @@
 ---
-title: Github-cli的使用
-abbrlink: c682f7b6
-date: 2022-11-12 14:17:53
-tags: [git, github]
-categories: [Github]
+title: Github命令行工具
+abbrlink: fe8402c1
+date: 2022-11-12 14:57:54
+tags:
 ---
 
-
-Github-Cli是github官方推出的命令行工具，可以用来在命令行上快捷的操作github.
+<center>Github-Cli是github官方推出的命令行工具，可以用来在命令行上快捷的操作github.</center>
 
 <!--more-->
 
@@ -110,4 +108,3 @@ gh issue status  查看自己发布的issues
 常用操作大概就这些，github-cli的纯命令行操作还是很好用的。gthub-cli配合git使用还是挺方便的。
 
 https://cli.github.com/manual/ 这里还有更多操作。~~不过是英语~~
-
