@@ -4,7 +4,7 @@ abbrlink: 31b5fd14
 date: 2022-11-12 01:12:05
 tags: sigil
 categories: [EPUB]
-top: true
+top: false
 ---
 
 众所周知多看的EPUB格式十分惊艳，尤其是在图片和注释方面。但是多看的epub制作工具却只有windows版本。因此我对多看EPUB内的css和xhtml进行了分析，总结出了一份css使之可以在sigil中使用，这样就可以在Linux等其他操作系统中制作出像多看这么惊艳的EPUB了。
@@ -74,7 +74,7 @@ top: true
   </spine>
 ```
 
-## 图片
+## 图片样式
 
 ```css
 /* 图片-无图说 */

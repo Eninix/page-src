@@ -1,6 +1,6 @@
 ---
-title: about
+title: 关于
 date: 2022-11-11 23:09:12
 ---
 
-This is About Page.
+一时心血来潮做了这个博客，以后会经常来更新的。也会把以前写的Github Page移植过来。
