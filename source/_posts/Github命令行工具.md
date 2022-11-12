@@ -40,7 +40,7 @@ gh repo clone 用户名/库名
 
 使用该条命令，会在当前操作目录下，建立一个一库名命名的文件夹，即为你的github库。
 
-![image-20220117004819632](https://cdn.jsdelivr.net/gh/Eninix/summary-book/src/Github/github-cli.assets/image-20220117004819632.png)![image-20220117004906276](https://cdn.jsdelivr.net/gh/Eninix/summary-book/src/Github/github-cli.assets/image-20220117004906276.png)
+![image-20220117004819632](https://cdn.jsdelivr.net/gh/Eninix/the-bed/202211130007794.png)![image-20220117004906276](https://cdn.jsdelivr.net/gh/Eninix/the-bed/202211130008360.png)
 
 ## 3.2打开当前github库的网页
 
@@ -48,11 +48,11 @@ gh repo clone 用户名/库名
 gh browse
 ```
 
-![image-20220117005110529](https://cdn.jsdelivr.net/gh/Eninix/summary-book/src/Github/github-cli.assets/image-20220117005110529.png)
+![image-20220117005110529](https://cdn.jsdelivr.net/gh/Eninix/the-bed/202211130011915.png)
 
 执行完后，自动打开了我的浏览器。
 
-![image-20220117005229390](https://cdn.jsdelivr.net/gh/Eninix/summary-book/src/Github/github-cli.assets/image-20220117005229390.png)
+![image-20220117005229390](https://cdn.jsdelivr.net/gh/Eninix/the-bed/202211130012955.png)
 
 ## 3.3查看某个库的README
 
@@ -60,7 +60,7 @@ gh browse
 gh repo view 用户名/库名
 ```
 
-![image-20220117011826651](https://cdn.jsdelivr.net/gh/Eninix/summary-book/src/Github/github-cli.assets/image-20220117011826651.png)
+![image-20220117011826651](https://cdn.jsdelivr.net/gh/Eninix/the-bed/202211130012540.png)
 
 
 
@@ -68,17 +68,17 @@ gh repo view 用户名/库名
 
 ## 4.1先在分支typo,随便改一下文件，并push
 
-![image-20220117005734353](https://cdn.jsdelivr.net/gh/Eninix/summary-book/src/Github/github-cli.assets/image-20220117005734353.png)
+![image-20220117005734353](https://cdn.jsdelivr.net/gh/Eninix/the-bed/202211130012366.png)
 
 ## 4.2使用gh pr creat创建一个pull requests
 
-![image-20220117010038153](https://cdn.jsdelivr.net/gh/Eninix/summary-book/src/Github/github-cli.assets/image-20220117010038153.png)
+![image-20220117010038153](https://cdn.jsdelivr.net/gh/Eninix/the-bed/202211130013549.png)
 
 这里我们可以看到，创建了一个编号5的pr
 
 在库主页上也可以看到:
 
-![image-20220117010155504](https://cdn.jsdelivr.net/gh/Eninix/summary-book/src/Github/github-cli.assets/image-20220117010155504.png)
+![image-20220117010155504](https://cdn.jsdelivr.net/gh/Eninix/the-bed/202211130013150.png)
 
 ## 4.3合并pull requests
 
@@ -88,7 +88,7 @@ gh repo view 用户名/库名
 gh pr merge --auto
 ```
 
-![image-20220117010518509](https://cdn.jsdelivr.net/gh/Eninix/summary-book/src/Github/github-cli.assets/image-20220117010518509.png)
+![image-20220117010518509](https://cdn.jsdelivr.net/gh/Eninix/the-bed/202211130013454.png)
 
 # 5.发布issues
 
