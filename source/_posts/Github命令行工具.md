@@ -1,8 +1,11 @@
 ---
-title: Github命令行工具
+title: Github-Cli的使用
 abbrlink: fe8402c1
 date: 2022-11-12 14:57:54
-tags:
+tags: 
+  - git
+  - github
+categories: Github
 ---
 
 <center>Github-Cli是github官方推出的命令行工具，可以用来在命令行上快捷的操作github.</center>
