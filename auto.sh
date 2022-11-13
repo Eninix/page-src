@@ -10,7 +10,12 @@ echo '=======>push to github'
 
 
 
-cd themes/next
-echo ''
-echo ''
-./push-to-github.sh
+if [$1 -eq 1]
+then
+	cd themes/next
+	echo ''
+	echo ''
+	./push-to-github.sh
+fi
+
+
