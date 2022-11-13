@@ -1,9 +1,14 @@
-echo '=======>hexo generate'
-hexo clean
-hexo g
-echo '=======>hexo deploy'
-hexo d
-echo '=======>push to github'
 SCRIPT_DIR=$(cd $(dirname ${BASH_SOURCE[0]}); pwd)
 cd $SCRIPT_DIR
+
+echo '=======>hexo deploy'
+hexo clean && hexo g -D
+echo ''
+
+echo '=======>push to github'
+./push-to-github.sh
+
+
+
+cd theme/next
 ./push-to-github.sh
