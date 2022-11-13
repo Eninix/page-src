@@ -10,8 +10,7 @@ echo '=======>push to github'
 
 
 
-if [ -e $1 && $1 -eq 1 ]
-then
+if [ -e $1 && $1 -eq 1 ];then
 	cd themes/next
 	echo ''
 	echo ''
