@@ -10,5 +10,5 @@ echo '=======>push to github'
 
 
 
-cd theme/next
+cd themes/next
 ./push-to-github.sh
